@@ -128,7 +128,7 @@ const updateJokes=async (req,res)=>{
         {
             return res.status(200).json({
                     success:true,
-                    message:"Modiefied nhi hua kuki prev and actual are same"
+                    message:"No changes applied, beacause you passes same body as prvs"
                 })
             }
             return res.status(200).json({
